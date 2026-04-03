@@ -99,6 +99,38 @@
       border-radius: 99px;
     }
 
+    /* portfolio link */
+    .card-portfolio {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .portfolio-label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #A8A29E;
+    }
+    .portfolio-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: #1D6B6B;
+      text-decoration: none;
+      border-bottom: 1px solid #EAF4F4;
+      transition: border-color 0.2s;
+    }
+    .portfolio-link:hover { border-color: #1D6B6B; }
+    .portfolio-desc {
+      font-size: 0.72rem;
+      color: #A8A29E;
+    }
+
     /* cta */
     .card-cta {
       display: flex;
@@ -162,6 +194,15 @@
       <span class="tool">Laporan Otomatis</span>
       <span class="tool">Form & Booking</span>
       <span class="tool">Dashboard Operasional</span>
+    </div>
+
+    <div class="card-portfolio">
+      <span class="portfolio-label">Contoh Kerja</span>
+      <a href="https://classiccareservice.com" target="_blank" rel="noopener" class="portfolio-link">
+        <span>classiccareservice.com</span>
+        <svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <span class="portfolio-desc">Website profil · Landing page</span>
     </div>
 
     <div class="card-cta">
